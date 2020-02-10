@@ -1,0 +1,28 @@
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: $black;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  animation: fade 1s 2s forwards;
+
+  .loader {
+    width: 20%;
+    height: 20%;
+  }
+
+  p {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
+

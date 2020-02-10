@@ -1,0 +1,36 @@
+$orange: darken(#FF986F, 5%);
+$black: #393939;
+$light-grey: #f3f3f3;
+$dark-grey: darken(#7D7D7D, 25%);
+
+.light-grey {
+  color: $light-grey;
+}
+
+.bg-light-grey {
+  background-color: $light-grey;
+}
+
+.orange {
+  color: $orange;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.dark-grey {
+  color: $dark-grey;
+}
+
+.bg-dark-grey {
+  background-color: $dark-grey;
+}
+
+.black {
+  color: $black;
+}
+
+.bg-black {
+  background-color: $black;
+}

@@ -1,0 +1,27 @@
+.portfolio-container {
+  margin-top: 30%;
+}
+
+.project {
+  margin: 30% 0;
+  p, span {
+    color: $dark-grey;
+    font-family: 'Lato', sans-serif;
+  }
+  p.highlight {
+    color: $orange;
+    font-family: 'Space Mono', monospace !important;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .portfolio-container {
+    margin-top: 10%;
+  }
+
+  .project {
+    margin: 5% 0;
+
+  }
+}
